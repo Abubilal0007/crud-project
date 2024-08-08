@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-control {
+    padding: 15px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    margin-left: 255px;
+}
+
+
+.spacer {
+    height: 100vh;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.box1.fade-in {
+    opacity: 1;
+}
